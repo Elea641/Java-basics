@@ -8,8 +8,11 @@ public class FizzBuzzTest {
 
     @Test
     public void test_Return_One_As_String_When_Input_Is_One_As_Integer() {
+        //arrange
         FizzBuzz fizzBuzz = new FizzBuzz();
+        //act
         String result = fizzBuzz.run(1);
+        //assert
         assertEquals("1", result);
     }
 
