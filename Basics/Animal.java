@@ -1,5 +1,5 @@
 public abstract class Animal implements Pet {
-    String name; 
+    String name;
     int age;
 
     public Animal(String name, int age) {
